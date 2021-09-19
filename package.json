@@ -1,0 +1,12 @@
+{
+  "name": "termkeys",
+  "version": "0.1.0-beta",
+  "description": "Input key handler for the terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["terminal", "tty", "keyread", "interactive"],
+  "author": "Epistemex",
+  "license": "NA"
+}
