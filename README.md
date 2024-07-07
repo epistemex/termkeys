@@ -1,20 +1,23 @@
 termkeys
 ========
 
-Read key presses from an interactive TTY using NodeJS.
+Read key presses from an interactive TTY using NodeJS using an event driven architecture.
 
-Supports most VT220 key sequences and newer, incl. modifiers like Shift, Control
-and Alt on some keys (a desktop environment or programs may capture some key
-combinations before it ever reaches the terminal.)
+Supports most VT220 key sequences and newer, incl. modifiers like Shift, Control and Alt on some
+keys.
 
-Sends parsed key strokes as event supporting `key`, `keyCode`, `ctrlKey`,
+Sends parsed keystrokes as event supporting `key`, `keyCode`, `ctrlKey`,
 `shiftKey`, `altKey` and `timestamp` properties in the event object.
 
-Note: The event only mimics JavaScript DOM KeyEvents loosely and aren't fully
-compatible due to some limitation to available information in the terminal.
+Note: The event only mimics JavaScript DOM KeyEvents loosely and aren't fully compatible due to some
+limitation to available information in the terminal.
 
-Event keys and key codes are also 'normalized' to produce the same codes in
-different types of terminals/shells where possible.
+Event keys and key codes are also 'normalized' to produce the same codes in different types of
+terminals/shells where possible.
+
+_Help keep the project alive by supporting the developer:_
+
+[![PayPalMe](https://github.com/epistemex/transformation-matrix-js/assets/70324091/04203267-58f0-402b-9589-e2dee6e7c510)](https://paypal.me/KenNil)
 
 Example
 -------
@@ -73,8 +76,11 @@ Key Object
 
 Note that holding the Shift key to get uppercase A-Z will set `shiftKey` to `true`.
 
-Also note that what keys and modifier keys can be pressed depends on the system
-the program is running. In many cases when running in a Desktop Environment, the
-system or programs running can capture and consume global key presses before they
-ever reach the TTY. Therefore, it's wise to use special keys sparingly or keys
-that are known to have wide support across systems.
+Also note that what keys and modifier keys can be pressed depends on the system the program is
+running. In many cases when running in a Desktop Environment, the system or programs running can
+capture and consume global key presses before they ever reach the TTY. Therefore, it's wise to use
+special keys sparingly or keys that are known to have wide support across systems.
+
+Copyright (c) 2021, 2024 epistemex
+
+![Epistemex](https://i.imgur.com/GP6Q3v8.png)
