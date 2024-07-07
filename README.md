@@ -1,7 +1,7 @@
 termkeys
 ========
 
-Read key presses from an interactive TTY using NodeJS using an event driven architecture.
+Read key presses from an interactive TTY using NodeJS and an event driven architecture.
 
 Supports most VT220 key sequences and newer, incl. modifiers like Shift, Control and Alt on some
 keys.
