@@ -67,12 +67,12 @@ Key Object
 
 ```json
 {
-  key: "keyname",
-  keyCode: 0,
-  ctrlKey: false,
-  altKey: false,
-  shiftKey: false,
-  timestamp: 0
+  "key": "<keyname>",
+  "keyCode": 0,
+  "ctrlKey": false,
+  "altKey": false,
+  "shiftKey": false,
+  "timestamp": 0
 }
 ```
 
