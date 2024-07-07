@@ -19,11 +19,18 @@ _Help keep the project alive by supporting the developer:_
 
 [![PayPalMe](https://github.com/epistemex/transformation-matrix-js/assets/70324091/04203267-58f0-402b-9589-e2dee6e7c510)](https://paypal.me/KenNil)
 
+Install
+-------
+
+In your project, use NPM:
+
+    npm i https://github.com/epistemex/termkeys
+
 Example
 -------
 
 ```javascript
-const Termkeys = require('./index');
+const Termkeys = require('termkeys');
 
 const tk = new Termkeys();
 
@@ -58,9 +65,9 @@ API
 Key Object
 ----------
 
-```javascript
+```json
 {
-  key: 'keyname',
+  key: "keyname",
   keyCode: 0,
   ctrlKey: false,
   altKey: false,
